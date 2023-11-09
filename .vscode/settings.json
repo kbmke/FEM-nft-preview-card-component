@@ -1,6 +1,11 @@
 {
-    "liveServer.settings.port": 5501,
     "cSpell.words": [
         "amntdays"
-    ]
+    ],
+    "editor.formatOnSave": true,
+    "json.sortOnSave.enable": true,
+    "liveServer.settings.port": 5501,
+    "notebook.experimental.remoteSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "workbench.editor.highlightModifiedTabs": true
 }

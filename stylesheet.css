@@ -19,9 +19,130 @@
   font-size: 18px;
 }
 
+body {
+   background-color: var(--mainBG);
+   width: 100%;
+   height: 100vh;
+   font-family: 'Outfit', sans-serif;
+}
+
+.card {
+   width: 330px;
+   background-color: var(--cardBG);
+   margin: 5rem auto;
+   border-radius: .5rem;
+}
+
+.image-container {
+   width: 290px;
+   margin: 1rem auto;
+}
+
+#nft {
+   margin: 1rem auto;
+   width: 100%;
+   border-radius: .5rem;
+}
+
+.info {
+   /* border: 1px solid red; */
+   padding: 0 1.2rem;
+}
+
+.header {
+   color: var(--header);
+}
+
+.link {
+   color: var(--header);
+   text-decoration: none;
+}
+
+.about{
+   color: var(--para);
+   font-weight: 400;
+   font-size: 1rem;
+   margin-top: 1rem;
+}
+
+.amntdays{
+      border: 1px solid plum;
+      /* padding-bottom: 1rem;   */
+      display: flex;
+      /* display: flexbox;  */
+      /* display: inline; */
+         }
+
+.amount {
+
+    /* justify-content: center; */
+   align-items: center;
+   display: flex;
+/* float: left; */
+   /* margin-top: 1rem; */
+   /* border: 1px solid orange; */
+}
+
+#crypto {
+   float: left;
+   /* padding-left: .1rem;
+   padding-top: .2rem;
+   padding-right: .3rem;
+   width: 1.1rem; */
+   /* border: 1px solid white; */
+}
+
+.eth {
+   color: var(--eth);
+   padding-left: .5rem;
+display: flex;
+   /* font-weight: 600; */
+   /* letter-spacing: -1; */
+}
+.days {
+   /* border: 1px solid greenyellow; */
+     align-items: center;
+     display: flex;
+       }
+
+       #clock {
+   /* width: 1.5rem; */
+   float: left;
+   /* padding-left: .1rem;
+   padding-top: .2rem;
+   padding-right: .3rem; */
+}
+
+.time {
+   color: var(--time);
+   padding-left: .5rem;
+ /* position: relative; */
+   /* float: right; */
+    display: flex;
+   }
+
+
+
+.creator {
+   border-top: 2px solid var(--line);
+   padding-top: 1rem;
+   display: flex;
+   align-items: center;
+}
+
+#jw {
+   width: 2rem;
+   border: 1px solid var(--header);
+   border-radius: 50%;
+}
+.name {
+   color:var(--para);
+   margin-left: .5rem;
+}
+/* 
 @media only screen and (min-width: 375px) and (max-width: 750px) {
      /* ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 540px SCREEN SIZE */
-   body {
+   /* body {
     width: 100%;
     height: 100vh;
     background-color: var(--mainBG);
@@ -39,12 +160,12 @@
     width: 95%;
     margin: 0 auto;
     border-radius: .8rem;
-    /* to visualize */
+    to visualize */
     /* border: 1px solid yellow; */
     /* justify-content: center; */
     /* align-items: center; */
     /* height: 40%; */
-     }
+     /* }
 
      .info {
         margin: 1rem auto;
@@ -76,7 +197,7 @@
         color: var(--time);
         margin-left: 10px;
         /* border: 1px solid greenyellow; */
-justify-content: right;
+/* justify-content: right;
 display: inline-flex;
 
 }
@@ -84,10 +205,10 @@ display: inline-flex;
         float: left;
         margin-left: 1.2rem;
      }
-.amount {
+.amount { */
    /* border: 1px solid pink; */
-   position: relative;
-display: flex;
+   /* position: relative; */
+/* display: flex;
 font-weight: 600;
 }
      #crypto {
@@ -101,158 +222,14 @@ font-weight: 600;
 
      .amntdays {
         margin-left: 1rem;
-        /* for visualization */
+        for visualization */
         /* border: 1px solid red; */
-        width: 300px;
+        /* width: 300px;
         display: flex;
         align-items: center;
-     }
-
-    #nft {
-    width: 100%;
-    border-radius: .8rem;
+     } */
+/* 
+#nft {
+   width: 100%;
+   border-radius: .8rem; */
     /* padding: 1rem; */
-}
-.creator {
-  display: flex;
-  margin-left: 1rem;
-  align-items: center; 
-  border-top: 1px solid var(--line);
-  padding-top: 1rem;
-}
-#jw {
-    width: 2.3rem;
-    border: 1px solid white;
-    border-radius: 50%;
-}
-.name {
-  color: var(--para);
-  margin-left: 1rem;
-}
-.active-link a:active, a:hover {
-   color: var(--eth);
-}
-.image-overlay a:active {
-background-image: url(/images/icon-view.svg);
-z-index: 2;
-}
-}
-@media only screen and (min-width: 751px) and (max-width: 1440px) {
-   ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 540px SCREEN SIZE
-body{
-   width: 100%;
-   height: 100vh;
-   background-color: var(--mainBG);
-   font-family: 'Outfit', sans-serif;
-  } 
-
-  .card {
-   background-color: var(--cardBG);
-   width: 25rem;
-   margin: .5rem auto;
-   padding: 1rem;
-   border-radius: .8rem;
-  }
-  .image-container {
-   width: 35rem;
-   margin: 0 auto;
-   border-radius: .8rem;
-   /* to visualize */
-   /* border: 1px solid yellow; */
-   /* justify-content: center; */
-   /* align-items: center; */
-   /* height: 40%; */
-    }
-
-    .info {
-       margin: 1rem auto;
-    }
-
-    .header {
-       color: var(--header);
-       font-weight: 600;
-       margin-left:1rem;
-       font-size: 1.3rem;
-    }
-
-    .about {
-       font-size: 1rem;
-       font-weight: 300;
-       color: var(--para);
-       margin-top: 1rem;
-       margin-left: 1rem;
-       width: 300px;
-       line-height: 1.5rem;
-
-    }
-    .eth {
-       color: var(--eth);
-       margin: 1rem;
-    }
-
-    .time {
-       color: var(--time);
-       margin-left: 10px;
-       /* border: 1px solid greenyellow; */
-justify-content: right;
-display: inline-flex;
-
-}
-    #clock {
-       float: left;
-       margin-left: 1.2rem;
-    }
-.amount {
-  /* border: 1px solid pink; */
-  position: relative;
-display: flex;
-font-weight: 600;
-}
-    #crypto {
-       float: left;
-    }
-
-    .link {
-       text-decoration: none;
-       color: var(--header);
-    }
-
-    .amntdays {
-       margin-left: 1rem;
-       /* for visualization */
-       /* border: 1px solid red; */
-       width: 300px;
-       display: flex;
-       align-items: center;
-    }
-
-   #nft {
-   width: 100%;
-   border-radius: .8rem;
-   width: 35rem;
-   /* padding: 1rem; */
-}
-.creator {
-  display: flex;
-  margin-left: 1rem;
- align-items: center; 
- border-top: 1px solid var(--line);
- padding-top: 1rem;
-}
-#jw {
-   width: 2.3rem;
-   border: 1px solid white;
-   border-radius: 50%;
-}
-.name {
-  color: var(--para);
-  margin-left: 1rem;
-}
-.active-link a:active, a:hover {
-  color: var(--eth);
-}
-.image-overlay a:active {
-background-image: url(/images/icon-view.svg);
-z-index: 2;
-}
-}

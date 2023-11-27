@@ -16,6 +16,7 @@
   --cardBG: hsl(216, 50%, 16%);
   --line: hsl(215, 32%, 27%);
   --header: hsl(0, 0%, 100%);
+  --al: hsl(178, 100%, 50%);
   font-size: 18px;
 }
 
@@ -116,4 +117,17 @@ display: flex;
 .name {
    color:var(--para);
    margin-left: .5rem;
+}
+
+.active-link:hover {
+   color: var(--al);
+}
+
+.active-img:hover {
+   background-image: url(/images/icon-view.svg);
+   background-color: var(--al);
+}
+
+.attribution{
+   text-align: center;
 }

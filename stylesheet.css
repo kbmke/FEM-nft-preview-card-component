@@ -1,4 +1,9 @@
-/* IMPORTS */
+/**
+ * IMPORTS
+ *
+ * @format
+ */
+
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@300;400;600&display=swap");
 
 /* PAGE RESET */
@@ -21,113 +26,113 @@
 }
 
 body {
-   background-color: var(--mainBG);
-   width: 100%;
-   height: 100vh;
-   font-family: 'Outfit', sans-serif;
+  background-color: var(--mainBG);
+  width: 100%;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
 }
 
 .card {
-   width: 330px;
-   background-color: var(--cardBG);
-   margin: 3rem auto;
-   border-radius: .5rem;
-   padding-bottom: 1rem;
+  width: 330px;
+  background-color: var(--cardBG);
+  margin: 3rem auto;
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .image-container {
-   width: 290px;
-   margin: .5rem auto;
+  width: 290px;
+  margin: 0.5rem auto;
 }
 
 #nft {
-   margin: 1rem auto;
-   width: 100%;
-   border-radius: .5rem;
+  margin: 1rem auto;
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 .info {
-   padding: 0 1.2rem;
+  padding: 0 1.2rem;
 }
 
 .header {
-   color: var(--header);
+  color: var(--header);
 }
 
 .link {
-   color: var(--header);
-   text-decoration: none;
+  color: var(--header);
+  text-decoration: none;
 }
 
-.about{
-   color: var(--para);
-   font-weight: 400;
-   font-size: 1rem;
-   margin-top: 1rem;
+.about {
+  color: var(--para);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
-.amntdays{
-         padding-top: 1rem;
-      padding-bottom: 1rem;  
-      display: flex;
-      justify-content: space-between;
-         }
+.amntdays {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
 
 .amount {
-   align-items: center;
-   display: flex;
-  }
+  align-items: center;
+  display: flex;
+}
 
 #crypto {
-   float: left;
-  }
+  float: left;
+}
 
 .eth {
-   color: var(--eth);
-   padding-left: .5rem;
-display: flex;
- }
+  color: var(--eth);
+  padding-left: 0.5rem;
+  display: flex;
+}
 .days {
-      align-items:center;
-     display: flex;
-   }
+  align-items: center;
+  display: flex;
+}
 
-       #clock {
-     float: left;
-        }
+#clock {
+  float: left;
+}
 
 .time {
-   color: var(--time);
-   padding-left: .5rem;
-    display: flex;
-   }
+  color: var(--time);
+  padding-left: 0.5rem;
+  display: flex;
+}
 
 .creator {
-   border-top: 2px solid var(--line);
-   padding-top: 1rem;
-   display: flex;
-   align-items: center;
+  border-top: 2px solid var(--line);
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 #jw {
-   width: 2rem;
-   border: 1px solid var(--header);
-   border-radius: 50%;
+  width: 2rem;
+  border: 1px solid var(--header);
+  border-radius: 50%;
 }
 .name {
-   color:var(--para);
-   margin-left: .5rem;
+  color: var(--para);
+  margin-left: 0.5rem;
 }
 
 .active-link:hover {
-   color: var(--al);
+  color: var(--al);
 }
 
 .active-img:hover {
-   background-image: url(/images/icon-view.svg);
-   background-color: var(--al);
+  background-image: url(/images/icon-view.svg);
+  background-color: var(--al);
 }
 
-.attribution{
-   text-align: center;
+.attribution {
+  text-align: center;
 }

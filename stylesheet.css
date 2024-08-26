@@ -35,7 +35,7 @@ body {
 .card {
   width: 330px;
   background-color: var(--cardBG);
-  margin: 3rem auto;
+  margin: 8rem auto;
   border-radius: 0.5rem;
   padding-bottom: 1rem;
 }
